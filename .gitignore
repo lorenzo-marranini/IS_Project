@@ -1,2 +1,6 @@
 Dataset
 .venv
+runs
+yolo_pose_plate
+yolo11n-pose.pt
+yolo26n.pt
