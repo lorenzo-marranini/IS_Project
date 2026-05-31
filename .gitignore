@@ -3,4 +3,7 @@ Dataset
 runs
 yolo_pose_plate
 yolo11n-pose.pt
+yolo11n-seg.pt
 yolo26n.pt
+ccpd_meta.pkl
+yolo_seg_plate
