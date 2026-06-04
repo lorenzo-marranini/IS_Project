@@ -9,3 +9,5 @@ ccpd_meta.pkl
 yolo_seg_plate
 crnn_recognition(2).ipynb
 crnn_plate
+runs_plate_recog
+paddleocr_baseline
