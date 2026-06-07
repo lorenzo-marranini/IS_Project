@@ -14,3 +14,4 @@ paddleocr_baseline
 ccpd_meta.pkl
 end_to_end_eval
 runs_plate_recog
+lpnr_plate
