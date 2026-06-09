@@ -1,0 +1,5 @@
+model,crop,test_full,test_char,tag
+LPRNet,box,0.0,0.2155774886002405,lprnet_box
+LPRNet,warp,0.00025002083506958916,0.5230793042277333,lprnet_warp
+7-head CNN,box,0.028252354362863573,0.6518162227804698,seven_box
+7-head CNN,warp,0.4165347112259355,0.8377483837938876,seven_warp
