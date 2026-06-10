@@ -1,0 +1,4 @@
+Recogniser,Full-plate acc,Mean edit dist,n
+LPRNet (CTC),0.961,0.053,11886
+7-head CNN,0.5288,0.891,11886
+PaddleOCR (zero-shot),0.7121,0.597,11886
