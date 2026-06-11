@@ -1,11 +1,11 @@
 Dataset
 .venv
 runs
-yolo_pose_plate
 yolo11n-pose.pt
 yolo11n-seg.pt
 yolo26n.pt
 ccpd_meta.pkl
+yolo_pose_plate
 yolo_seg_plate
 crnn_recognition(2).ipynb
 crnn_plate
