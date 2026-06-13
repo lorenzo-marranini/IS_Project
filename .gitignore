@@ -1,5 +1,6 @@
 Dataset
 .venv
+.venv-paddle
 runs
 yolo_pose_plate
 yolo11n-pose.pt
