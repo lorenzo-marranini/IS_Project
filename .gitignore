@@ -17,3 +17,8 @@ ccpd_meta.pkl
 end_to_end_eval
 runs_plate_recog
 lpnr_plate
+yolo11m-pose.pt
+yolo11m-seg.pt
+yolo11n-seg.pt
+yolo11s-seg.pt
+yolo11s-pose.pt
