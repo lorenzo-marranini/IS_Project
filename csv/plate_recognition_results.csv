@@ -1,3 +1,0 @@
-model,crop,test_full,test_char,tag
-CRNN,box,0.8675722976914743,0.9676520662436155,crnn_box
-CRNN,warp,0.9511625968830736,0.9898801090567071,crnn_warp

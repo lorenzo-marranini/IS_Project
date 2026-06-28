@@ -109,28 +109,27 @@ label files are needed.
 
 ## Running the notebooks
 
-The four notebooks are designed to be run in this order — each one
-depends on artifacts produced by the previous ones.
+The four notebooks are designed to be run in this order
 
-### 1. `ccpd_exploration.ipynb` — dataset analysis (no GPU needed)
+### 1. `ccpd_exploration.ipynb`: dataset analysis
 
 Run this first to verify the dataset is correctly placed and to
 generate the figures used in the paper (character distributions per
 position, subset composition, sample plate visualizations with corner
 overlays).
 
-### 2. `yolo_pose_plate_training.ipynb` — YOLO11-pose training
+### 2. `yolo_pose_plate_training.ipynb`: YOLO11-pose training
 
 Trains YOLO11-pose to predict the four plate corners. We do
 4-fold cross-validation, comparing model sizes (Nano / Small /
 Medium), then a final retrain on the full pool.
 
-### 3. `plate_recognition_unified.ipynb` — recognizer training
+### 3. `plate_recognition_unified.ipynb`: recognizer training
 
 Trains LPRNet and the 7-head CNN on rectified plate crops cached from CCPD. Also evaluates
 PaddleOCR zero-shot.
 
-### 4. `end_to_end_evaluation.ipynb` — full pipeline on a fresh subset
+### 4. `end_to_end_evaluation.ipynb`: full pipeline 
 
 Loads the trained YOLO11-pose model and all three recognizers from
 their checkpoints, then runs the full pipeline (detect → rectify →

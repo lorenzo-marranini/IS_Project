@@ -1,7 +1,0 @@
-Model_Name,Task,Size,Mean_Corner_Error_px,N_Matched,Success_Rate_%
-Pose Small (s),POSE,s,3.787,1182,100.0
-Pose Medium (m),POSE,m,4.194,1182,100.0
-Pose Nano (n),POSE,n,4.223,1182,100.0
-Seg Nano (n),SEG,n,7.443,1182,100.0
-Seg Small (s),SEG,s,7.926,1182,100.0
-Seg Medium (m),SEG,m,8.063,1182,100.0
